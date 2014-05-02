@@ -1,0 +1,24 @@
+
+The solution is configured to build:
+	TDD_Practice_Executable.exe and put it in $(SolutionDir)\x64\Debug\TDD_Practice_Executable.exe
+	TDD_Practice_Library.exe and put it in $(SolutionDir)\x64\Debug\TDD_Practice_Library.exe
+
+------
+To run tests from the debugger in Visual Studio, press F5 - the solution is configured to launch the tests and trigger a breakpoint on test failure.
+
+To run "main" from the debugger in Visual Studio, right click on the "TDD_Practice_Executable" project and select "Debug->Start new instance"
+
+------
+To run the tests from the command line:
+
+	1) cd to whatever directory the solution is in, i.e. wherever tdd_practice_cfix.sln is
+
+	2) run "cfix\cfix64 x64\Debug\TDD_Practice_Library.dll"
+
+------
+To run "main" from the command line:
+
+	1) cd to whatever directory the solution is in, i.e. wherever tdd_practice_cfix.sln is
+
+	2) run "x64\Debug\TDD_Practice_Executable.exe"
+

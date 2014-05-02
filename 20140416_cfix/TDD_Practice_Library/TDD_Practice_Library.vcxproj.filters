@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="defs.h" />
+    <ClInclude Include="StringCalculator.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TestStringCalculator.cpp" />
+    <ClCompile Include="StringCalculator.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="How To Run Tests.txt" />
+    <Text Include="Instructions.txt" />
+  </ItemGroup>
+</Project>
